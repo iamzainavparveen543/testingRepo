@@ -8,6 +8,13 @@ public class Test1 {
         WebDriverManager.chromedriver().setup();
         WebDriver dr = new ChromeDriver();
         dr.get("https://www.amazon.in/");
-
+        dr.manage().window().maximize();
+       dr.get("https://www.google.com/");
+       dr.navigate().to("https://www.youtube.com/");
+       dr.getCurrentUrl();
+      // System.out.println(dr.getCurrentUrl());
+        dr.navigate().back();
+        dr.navigate().forward();
+        dr.navigate().refresh();
     }
 }
