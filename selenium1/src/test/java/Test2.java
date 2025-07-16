@@ -16,7 +16,7 @@ public class Test2 {
             driver.get("https://www.facebook.com/");
             driver.manage().window().maximize();
 
-            WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+            WebDriverWait wait = new WebDriverWait(driver,10);
 
             wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("email"))).sendKeys("iamsajidali@gmail.com");
 
