@@ -10,6 +10,8 @@ public class DataBase {
         String dbUrl = "jdbc:mysql://localhost:3306/nit7am";
         String userName = "root";
         String password = "root";
+//        String query = "database";
+//        String query = "show Tables";
         String  query = "select * from employee_new ";
 //        try{
             Class.forName ("com.mysql.cj.jdbc.Driver");

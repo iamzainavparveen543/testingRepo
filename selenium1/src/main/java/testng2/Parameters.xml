@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="param suite">
+    <parameter name="SampleParameter" value="zainav"></parameter>
+    <parameter name="SampleParameter1" value="parveen"></parameter>
+    <parameter name="anotherParameter" value="zainav parveen"></parameter>
+    <parameter name="parameter" value="my"></parameter>
+    <parameter name="parameter1" value="name"></parameter>
+    <parameter name="anotherParameter1" value="zainav"></parameter>
+
+    <test name="param tast">
+        <classes>
+            <class name="testng2.Parameter"></class>
+        </classes>
+    </test>
+</suite>

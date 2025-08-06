@@ -6,8 +6,11 @@ public class TestLocal {
     public static void main(String[] args) {
         WebDriverManager.chromedriver().setup();
         WebDriver driver = new ChromeDriver();
+        driver.manage().window().maximize();
         String path ="C:\\Users\\Admin\\Desktop\\MyLearnings\\gitHub\\index.html";
-        String finalpath = "file:///"+path.replace("\\","/");
+        String path2 = "file:///";
+        String finalpath =path2 + path;
+        //String finalpath = "file:///"+path.replace("\\","/");
         driver.get(finalpath);
 
     }

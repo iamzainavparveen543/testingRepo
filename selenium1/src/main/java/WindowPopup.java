@@ -17,7 +17,7 @@ public class WindowPopup {
         Thread.sleep(2000);
         driver.findElement(By.xpath("//input[@name='password']")).sendKeys("2356789");
         Thread.sleep(1000);
-        driver.findElement(By.linkText("Sign up")).click();
+//        driver.findElement(By.linkText("Sign up")).click();
         System.out.println("clicked");
         driver.navigate().to("https://www.facebook.com/");
         Thread.sleep(1000);
@@ -53,7 +53,7 @@ public class WindowPopup {
 //            driver.switchTo().window(it.next());
 //            System.out.println(driver.getTitle());
 //        }
-        driver.navigate().back();
+//        driver.navigate().back();
 
 
 

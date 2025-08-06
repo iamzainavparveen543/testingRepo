@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Example suite" parallel="methods" thread-count="3">
+    <test name="Example test">
+        <classes>
+            <class name="testng2.TestNgExample"></class>
+            <class name="testng2.TestExample">
+<!--                    <methods>-->
+<!--                        <exclude name="test"></exclude>-->
+<!--                    </methods>-->
+<!--                <methods>-->
+<!--                    <include name="test"></include>-->
+<!--                    <include name="test1"></include>-->
+<!--                </methods>-->
+
+            </class>
+
+        </classes>
+
+<!--        <groups>-->
+<!--            <run>-->
+<!--                <include name="regression"></include>-->
+<!--                <include name="sanity"></include>-->
+<!--            </run>-->
+<!--        </groups>-->
+<!--        <classes>-->
+<!--            <class name="testng2.TestExample"></class>-->
+<!--            <class name="testng2.TestNgExample"></class>-->
+<!--        </classes>-->
+
+    </test>
+</suite>
+
+
+

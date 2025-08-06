@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="annotation_suite">
+    <test name="annotation_test">
+        <classes>
+            <class name="testng2.Annotation"></class>
+        </classes>
+    </test>
+</suite>

@@ -30,7 +30,7 @@ public class MakeMyTrip {
         JavascriptExecutor js = (JavascriptExecutor) driver;
         js.executeScript("arguments[0].scrollIntoView(true);",element);
         Thread.sleep(2000);
-        js.executeScript("arguments[0].click();",element);
+//        js.executeScript("arguments[0].click();",element);
         System.out.println("clicked");
         driver.findElement(By.xpath("//input[contains(@placeholder,'Mobile')]")).sendKeys("9084408050");
         Thread.sleep(1000);
